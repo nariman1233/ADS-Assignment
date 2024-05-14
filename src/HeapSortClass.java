@@ -43,11 +43,12 @@ public class HeapSortClass {
     }
 
     public static void main(String args[]) {
-        int arr[] = {12, 11, 13, 5, 6, 7};
+        int arr[] = {8, 23, 4, 6 };
         HeapSort ob = new HeapSort();
         ob.sort(arr);
         System.out.println("Sorted array:");
         HeapSort.printArray(arr);
+        System.out.println("время в наносекундах " + System.nanoTime());
     }
 }
 //Best, worst and average cases are the same:O(nlogn)

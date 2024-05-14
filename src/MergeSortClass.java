@@ -59,6 +59,7 @@ public class MergeSortClass {
 
         System.out.println("\nОтсортированный массив:");
         printArray(arr);
+        System.out.println("время в наносекундах " + System.nanoTime());
     }
 
     private static void printArray(int[] array) {
